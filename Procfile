@@ -1,0 +1,1 @@
+web gunicorn winepredictionDeploy.wsgi --log-file -

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+  
+</head>
+<style>
+             
+            #bg{
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+}
+             .container{
+             border: 7px;
+             }
+             table {
+                     
+                     border-spacing: 0 0px;
+                     width: 50%;
+                     }
+            td{width:1px;white-space:nowrap;}
+            #sub {
+            background-color: #F6DDCC;
+            color: black;
+            width: 260px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+        h3{
+        
+        color : #420000;}
+  .header {
+       
+       
+  padding: 25px 116px;
+  background: #420000;
+  color: #F6DDCC;
+  }
+  
+  .content {
+  padding: 16px;
+}
+
+  .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+
+  padding-top: 102px;
+}
+
+       
+        </style>
+        
+
+
+<body id="bg" style="background-image: url('{% static "images/wineglass1.jpg"%}')";>
+
+   
+
+   <form action="{% url 'result' %}" >
+   {% csrf_token %}
+   <div class="header" id="myHeader">
+   <h1 align = "left" style="color:#F6DDCC;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWine Quality Prediction    </h2>
+   </div>
+            
+            <div class="content">
+            <table align = 'center'>
+            <tr><td></td><td align = "center"><h3>Fixed Acidity</h3></td><td></td><td><input type = "text" required name = "FA"></td></tr>
+            
+            <tr><td></td><td align = "center"><h3>Volatile Acidity</h3></td><td></td><td><input type = "text" required name = "VA"></td></tr>
+           
+            <tr><td></td><td align = "center"><h3>Citric Acid</h3></td><td></td><td><input type = "text" required name = "CA"></td></tr>
+            <tr><td></td><td align = "center"><h3>Residual Sugar</h3></td><td></td><td><input type = "text" required name = "RS"></td></tr>
+            <tr><td></td><td align = "center"><h3>Chlorides</h3></td><td></td><td><input type = "text" required name = "CL"></td></tr>
+            <tr><td></td><td align = "center"><h3>Total Sulphar Dioxides</h3></td><td></td><td><input type = "text" required name = "TSD"></td></tr>
+            <tr><td></td><td align = "center"><h3>pH</h3></td><td></td><td><input type = "text" required name = "PH"></td></tr>
+            <tr><td></td><td align = "center"><h3>Sulphates</h3></td><td></td><td><input type = "text" required name = "SU"></td></tr>
+            <tr><td></td><td align = "center"><h3>Alcohol</h3></td><td></td><td><input type = "text" required name = "AL"></td></tr>
+            <tr></tr>
+            </table>
+            <div class="container" align = "center">
+            <input type = "submit" id = "sub" name = "" value = "          Predict Quality          " style="font-weight:bold;">>
+            </div>
+        
+            </form>
+            </div>
+             
+            
+   </html>
+  <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+
+function myFunction() {
+ 
+
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+   
+  } else {
+    header.classList.remove("sticky");
+    
+  }
+}
+</script>          
+</body>  
+
+
+</html>

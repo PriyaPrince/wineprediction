@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+  
+</head>
+
+  <body id="bg" style="background-image: url('{% static "images/wineglass1.jpg"%}')";>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+   <div class="container" align = "center">
+   <h1>..The Quality is {{ans}}..</h1>
+   </div>
+   <button id="back" style="position: absolute; left: 20%; right: 20%; bottom: 5%;" 
+    onclick="window.location.href = 'http://127.0.0.1:8000/';">
+        Home
+    </button>
+    <style>
+             #bg{
+    background-size: 1800px 900px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+} 
+    h1{
+        color : #581845;} 
+            
+    </style>
+</body>  
+
+
+</html>

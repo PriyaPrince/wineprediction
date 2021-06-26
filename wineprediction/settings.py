@@ -128,6 +128,9 @@ STATICFILES_DIRS = [
 ]
 django_heroku.settings(locals())
 
+if os.path.exists('defs.py'):
+        from defs import log_transform
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 

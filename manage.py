@@ -3,7 +3,7 @@
 import os
 import sys
 import joblib
-
+from defs import log_transform
 
 
 def main():
@@ -11,7 +11,7 @@ def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'wineprediction.settings')
     try:
-        from defs import log_transform
+        
         from django.core.management import execute_from_command_line
     except ImportError as exc:
         raise ImportError(

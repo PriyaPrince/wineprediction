@@ -3,7 +3,7 @@
 import os
 import sys
 import joblib
-from wineprediction.defs import log_transform
+
 
 
 def main():
@@ -24,3 +24,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    from defs import log_transform

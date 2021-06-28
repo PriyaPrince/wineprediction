@@ -3,7 +3,7 @@
 import os
 import sys
 import joblib
-from defs import log_transform
+from wineprediction.defs import log_transform
 
 
 def main():

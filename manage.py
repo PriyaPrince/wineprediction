@@ -3,7 +3,7 @@
 import os
 import sys
 import joblib
-from defspack.defs import log_transforms
+from defspack.defs import log_transform
 
 
 

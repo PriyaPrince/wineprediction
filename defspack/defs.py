@@ -1,4 +1,4 @@
 import numpy as np
-print('HIIIIIIIIIIII PRIYA')
-def log_transforms(x):
+
+def log_transform(x):
         return np.log(x + 1)

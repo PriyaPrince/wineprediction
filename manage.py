@@ -4,9 +4,8 @@ import os
 import sys
 import joblib
 from defspack.defs import log_transform
-
-
-
+import numpy as np
+    
 def main():
     
     """Run administrative tasks."""
@@ -24,5 +23,7 @@ def main():
 
 
 if __name__ == '__main__':
+    def log_transform(x):
+            return np.log(x + 1)
     main()
     

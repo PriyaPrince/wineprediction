@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from defspack.defs import log_transform
 import joblib
 
 
@@ -10,7 +11,7 @@ def home(request):
 def result(request):
     
     #clf = pickle.load(open('WinePickle.sav', 'rb'))
-    clf = joblib.load("WinePickle.sav")
+    clf = joblib.load("WineModelPickle.sav")
     
     paramlis = []
     paramlis.append(request.GET['FA'])

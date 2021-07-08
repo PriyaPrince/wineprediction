@@ -29,9 +29,9 @@ def result(request):
     ans = clf.predict([paramlis])
     print(ans)
     if ans == [0]:
-        grade = 'As per the chemical composition of the wine, the quality is predicted to be Bad'
+        grade = 'As per the chemical composition of the wine, the quality is predicted as Bad'
     elif ans == [1]:
-        grade = 'As per the chemical composition of the wine, the quality is predicted to be Good'
+        grade = 'As per the chemical composition of the wine, the quality is predicted as Good'
     
     return render(request,'result.html',{'ans':grade})
         

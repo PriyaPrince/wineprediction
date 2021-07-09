@@ -3,7 +3,7 @@
 import os
 import sys
 import joblib
-from defspack.defs import log_transform
+from defs import log_transform
 import numpy as np
     
 def main():

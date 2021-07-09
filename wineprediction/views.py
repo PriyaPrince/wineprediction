@@ -1,9 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from defspack.defs import log_transform
 import joblib
-
-
 
 def home(request):
     return render(request,'home.html')

@@ -1,1 +1,1 @@
-# wineprediction
+# Wine Quality Prediction

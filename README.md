@@ -37,7 +37,7 @@ As we can see, density, pH,free sulphar dioxide attributes do not have any impac
 
 
 ## Exploratory Data Analysis
-Detailed EDA of the dataset is given here (wineprediction/WineQualityPrediction.ipynb)
+Detailed EDA of the dataset is given [here](wineprediction/WineQualityPrediction.ipynb)
 
 
 

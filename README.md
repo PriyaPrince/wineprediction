@@ -38,6 +38,41 @@ As we can see, density, pH,free sulphar dioxide attributes do not have any impac
 
 ## Exploratory Data Analysis
 Detailed EDA of the dataset is given [here](/WineQualityPrediction.ipynb)
+The below bar plot shows count of data which is good or bad. It is clear that 55% of the data is classified with bad wine quality and 45 % is classified with good quality.
+
+
+
+
+This bar plot shows a directly proportional relation between volatile acidity and quality. As the quality of wine increases the value of volatile acidity also increases which shows that volatile acidity is an important feature on which quality of wine depends.
+
+
+
+
+
+Citric acid is another important feature which is greatly contributing to the quality of wine.
+
+## Model Creation and Pipelining
+Algorithms used for model creation and classification.
+
+RandomForest Classifier
+XGBoost Classifier
+Support Vector Machine
+K- Nearest Neighbour
+Hyper parameter tuning of the parameters is done using GridSearchCV and RandomozedSearchCV for finding out the optimal accuracy.
+RandomForest Classifer showed comparitively greater Cross validation Score - 74%
+Pipeline of the ML model created(Algorithm used - RandomForest Classifer )
+
+## Model Deployment 
+Deployment of the model is done using Python DJANGO Framework.The same is deployed in Heroku.
+Heroku Link to launch predictor :-  https://wineprediction012.herokuapp.com/
+
+## Conclusion 
+
+
+
+
+
+
 
 
 

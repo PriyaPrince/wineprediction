@@ -30,7 +30,7 @@ As mentioned earlier, the quality attribute has been regrouped into 0 and 1, rep
 As we can see, density, pH,free sulphar dioxide attributes do not have any impact on the qulaity. Though removing only density and free suphar dioxide considering extratree regressor and partial correlation results.
 ![p3](https://user-images.githubusercontent.com/82373435/130211568-92f0ae6e-d6c6-4c3d-867f-db3edfba2953.jpg)
 ## Exploratory Data Analysis
-**Detailed EDA of the dataset is given [here]**(/WineQualityPrediction.ipynb)  
+**Detailed EDA of the dataset is given** [here](/WineQualityPrediction.ipynb)  
 
 The below bar plot shows count of data which is good or bad.  It is clear that 55% of the data is classified with bad wine quality and 45 % is classified with good quality.  
 <img width="257" alt="p4" src="https://user-images.githubusercontent.com/82373435/130212186-a2d0b53b-e2d1-47b5-a467-9ac164105d12.png">  

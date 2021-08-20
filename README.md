@@ -28,27 +28,13 @@ The dataset looks very clean with 1143 rows , 12 features and no missing values.
 As mentioned earlier, the quality attribute has been regrouped into 0 and 1, representing bad and good respectively. Map function is used assign new labels to the attribute.
 ## Feature Selection
 As we can see, density, pH,free sulphar dioxide attributes do not have any impact on the qulaity. Though removing only density and free suphar dioxide considering extratree regressor and partial correlation results.
-
-<img width="940" alt="p1" src="https://user-images.githubusercontent.com/82373435/130103992-62f7f019-eb82-4c23-a1af-8c7434fdab42.png">
-
-
-
-
-
-
+![p3](https://user-images.githubusercontent.com/82373435/130211568-92f0ae6e-d6c6-4c3d-867f-db3edfba2953.jpg)
 ## Exploratory Data Analysis
-Detailed EDA of the dataset is given [here](/WineQualityPrediction.ipynb)
-The below bar plot shows count of data which is good or bad. It is clear that 55% of the data is classified with bad wine quality and 45 % is classified with good quality.
-
-
-
-
+Detailed EDA of the dataset is given [here](/WineQualityPrediction.ipynb)  
+The below bar plot shows count of data which is good or bad.  It is clear that 55% of the data is classified with bad wine quality and 45 % is classified with good quality.  
+<img width="257" alt="p4" src="https://user-images.githubusercontent.com/82373435/130212186-a2d0b53b-e2d1-47b5-a467-9ac164105d12.png">  
 This bar plot shows a directly proportional relation between volatile acidity and quality. As the quality of wine increases the value of volatile acidity also increases which shows that volatile acidity is an important feature on which quality of wine depends.
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/82373435/130212950-79167a8c-6f3a-4e30-830d-3ad803eb0b40.png)  
 Citric acid is another important feature which is greatly contributing to the quality of wine.
 
 ## Model Creation and Pipelining

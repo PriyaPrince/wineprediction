@@ -6,20 +6,20 @@
 The aim of this project is to predict the quality of wine on the basis of its chemical composition. Wine quality dataset taken from Kaggle has been used to do the analysis to find out the impact of the chemical attributes in deciding  the quality of wine and to build various classification models to predict the wine is of good quality or not. 
 Each wine data in this dataset is given a quality score ranging from 3 to 9. As part of analysis I converted the dependent variable into a binary type where each wine is either good quality(a score of 6 or higer) or not (a score below 6).
 ## Summary of Dataset 
-Input variables:
-1 - Fixed acidity
-2 - Volatile acidity
-3 - Citric acid
-4 - Residual sugar
-5 - Chlorides
-6 - Free sulfur dioxide
-7 - Total sulfur dioxide
-8 - Density
-9 - PH
-10 - Sulphates
-11 - Alcohol 
+Input variables:  
+1 - Fixed acidity  
+2 - Volatile acidity  
+3 - Citric acid  
+4 - Residual sugar  
+5 - Chlorides  
+6 - Free sulfur dioxide  
+7 - Total sulfur dioxide  
+8 - Density  
+9 - PH  
+10 - Sulphates  
+11 - Alcohol   
 
-Output variable 
+Output variable   
 Quality of wine (Score between 2 and 9)
 
 ## Understanding Data

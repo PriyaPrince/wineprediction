@@ -23,7 +23,7 @@ Output variable
 Quality of wine (Score between 2 and 9)
 
 ## Understanding Data
-The dataset looks very clean with 1143 rows , 12 features and no missing values.
+The dataset looks clean with 1143 rows , 12 features and no missing values.
 ## Preprocessing
 As mentioned earlier, the quality attribute has been regrouped into 0 and 1, representing bad and good respectively. Map function is used assign new labels to the attribute.
 ## Feature Selection

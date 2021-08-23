@@ -45,8 +45,8 @@ RandomForest Classifier
 XGBoost Classifier  
 Support Vector Machine  
 K- Nearest Neighbour  
-Hyper parameter tuning of the parameters is done using GridSearchCV and RandomozedSearchCV for finding out the optimal accuracy.
-RandomForest Classifer showed comparitively greater Cross validation Score - 74%. 
+Hyper parameter tuning of the parameters is done using GridSearchCV and RandomozedSearchCV for finding out the optimal accuracy.  
+RandomForest Classifer showed comparitively greater Cross validation Score - 74%.   
 Pipeline of the ML model created(Algorithm used - RandomForest Classifer )
 
 ## Model Deployment 

@@ -1,5 +1,5 @@
-# Wine Quality Prediction
-# Data Analysis and Machine Learning Project
+## Wine Quality Analysis & Prediction
+## Data Analysis and Machine Learning Project
 
 
 ## Project Overview
